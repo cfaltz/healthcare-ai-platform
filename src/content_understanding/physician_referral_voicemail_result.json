@@ -1,0 +1,56 @@
+{
+	"id": "e0adcf2f-6ee7-48a6-aaf2-daa658e0e489",
+	"status": "Succeeded",
+	"result": {
+		"analyzerId": "projectAnalyzer_1772399507005_391",
+		"apiVersion": "2025-11-01",
+		"createdAt": "2026-03-01T21:11:47Z",
+		"stringEncoding": "codePoint",
+		"warnings": [],
+		"contents": [
+			{
+				"path": "input1",
+				"markdown": "# Audio: 00:00.000 => 00:25.876\n\nTranscript\n```\nWEBVTT\n\n00:01.840 --> 00:02.880\n<v Speaker 1>Hi, this is Dr.\n\n00:02.880 --> 00:05.760\n<v Speaker 1>Sarah Johnson calling from Metro Internal Medicine.\n\n00:06.000 --> 00:10.320\n<v Speaker 1>Call back number 718-555-0192.\n\n00:10.560 --> 00:15.440\n<v Speaker 1>I have a patient, James Carter, date of birth March 12, 1965.\n\n00:15.840 --> 00:22.000\n<v Speaker 1>I'd like to refer to cardiology for evaluation of chest pain on exertion.\n\n00:22.000 --> 00:22.680\n<v Speaker 1>This is urgent.\n\n00:22.680 --> 00:24.720\n<v Speaker 1>Please call me back at the number above.\n\n00:24.800 --> 00:25.280\n<v Speaker 1>Thank you.\n```",
+				"fields": {
+					"ReferringPhysician": {
+						"type": "string",
+						"valueString": "Dr. Sarah Johnson"
+					},
+					"CallbackNumber": {
+						"type": "string",
+						"valueString": "718-555-0192"
+					},
+					"PatientName": {
+						"type": "string",
+						"valueString": "James Carter"
+					},
+					"ReasonForReferral": {
+						"type": "string",
+						"valueString": "Evaluation of chest pain on exertion"
+					},
+					"UrgencyLevel": {
+						"type": "string",
+						"valueString": "urgent"
+					},
+					"PreferredSpecialty": {
+						"type": "string",
+						"valueString": "cardiology"
+					}
+				},
+				"kind": "audioVisual",
+				"startTimeMs": 0,
+				"endTimeMs": 25876,
+				"analyzerId": "projectAnalyzer_1772399507005_391",
+				"mimeType": "audio/mpeg"
+			}
+		]
+	},
+	"usage": {
+		"audioHours": 0.008,
+		"contextualizationTokens": 722,
+		"tokens": {
+			"gpt-4.1-input": 1638,
+			"gpt-4.1-output": 80
+		}
+	}
+}
